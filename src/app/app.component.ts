@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My first Angular App';
+
+  onNotify(val){
+    console.log(val);
+    this.title = val;
+  }
 }
