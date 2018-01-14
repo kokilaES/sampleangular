@@ -1,8 +1,26 @@
+
 h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
-app-header{
-  box-shadow: 0 0 15px grey;
+
+.header-container{
+
+  margin-bottom: 15px;
+
+}
+.header-container hr{
+  height: 10px;
+   border: 0;
+   box-shadow: 0 8px 9px -11px #8c8c8c inset;
+
+}
+.header-container .header-content{
+  width: 70%;
+  margin: 0 auto;
+}
+.container{
+  width: 70%;
+  margin: 0 auto;
 }

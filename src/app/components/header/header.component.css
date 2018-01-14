@@ -2,11 +2,14 @@
 
    font-size: 12px;
 }
+
 .logo{
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
   float: left;
+}
+.logo img{
+  height: 45px;
+  width: 45px;
 }
 .profile{
   float: left;
@@ -16,17 +19,19 @@
 }
 .user-container{
   float: right;
-  padding: 5px;
+  padding: 7px;
 }
 .dp{
   float:left;
 }
 .username{
-  color: #959696;
+  color: #585858;
+  padding:2px;
 
 }
 .email{
   color: #C0C1C2;
+
 }
 
 .clear{
