@@ -7,9 +7,19 @@
     float: left;
     margin: 5px;
 }
-p{
-  color: blue;
+a{
+
   padding : 10px;
   font-size: 12px;
-  background-color: yellow;
+  display: block;
+  text-decoration: none;
+}
+.row2{
+  color: #08c4a4;
+
+}
+
+.row3{
+  color: #D4D8D9;
+
 }

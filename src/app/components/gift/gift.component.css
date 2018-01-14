@@ -1,0 +1,25 @@
+.gift-container{
+    padding : 5px;
+    margin-bottom: 5px;
+}
+.gift-image{
+    border-radius: 50%;
+    float: left;
+}
+.gift-image img{
+    height: 150px;
+    width: 150px;
+}
+.gift-content{
+    float:left;
+    padding: 10px;
+}
+.gift-content .title{
+      color: #08c4a4;
+}
+.gift-content .desc{
+      color: #D4D8D9;
+}
+.clear{
+    clear: both;
+}

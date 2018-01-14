@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -11,10 +12,14 @@ import { ContentpaneComponent } from './components/contentpane/contentpane.compo
 import { WelcomeComponent } from './components/contentcomponents/welcome/welcome.component';
 import { ProfileComponent } from './components/contentcomponents/profile/profile.component';
 import { UpgradeComponentComponent } from './components/upgrade-component/upgrade-component.component';
+import { GiftComponent } from './components/gift/gift.component';
+import { GiftDemoComponent } from './components/gift-demo/gift-demo.component';
 
 const ROUTES : Routes = [
   { path: 'updates', component: UpgradeComponentComponent },
   { path: '', component: ContentpaneComponent },
+  { path: 'gifts',component: GiftDemoComponent },
+
 
 ];
 
@@ -28,13 +33,19 @@ const ROUTES : Routes = [
     ContentpaneComponent,
     WelcomeComponent,
     ProfileComponent,
-    UpgradeComponentComponent
+    UpgradeComponentComponent,
+    GiftComponent,
+    GiftDemoComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+
+}

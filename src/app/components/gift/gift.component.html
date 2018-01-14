@@ -1,0 +1,11 @@
+
+  <div class="gift-container" *ngFor="let item of items">
+    <div class="gift-image">
+      <img src={{item.imageURL}} alt="gifts"/>
+    </div>
+      <div class="gift-content">
+        <div class="title">{{item.title}}</div>
+        <div class="desc">{{item.description}}</div>
+      </div>
+      <div class="clear"></div>
+  </div>
